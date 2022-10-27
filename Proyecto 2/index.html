@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="Estilos/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <title>Guía de Ejercicios 03 - Unidad CSS</title>
+</head>
+<body>
+  <!-- HEADER -->
+  <section class="Seccion1">
+    <div class="Header">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <img src="../Proyecto 2/Imágenes/BA CODING SCHOOL.png" alt="icono" class="icono">
+          <span class="fs-4">BA CODING SCHOOL - EDUCACION EJECUTIVA</span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact Us</a></li>
+        </ul>
+        <hr>
+      </header>
+    </div>
+  </section>
+<!-- DEBAJO DEL HEADER -->
+  <hr class="hr1">
+  <div class="px-4 py-5 my-5 text-center" id="postheader">
+    <h1 class="display-5 fw-bold">We Build Well Designed Websites</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Class aptent taciti sociosqu ad litora torquent per conubia nostra</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Get Started</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4"><strong>Learn More</strong></button>
+      </div>
+    </div>
+  </div>
+<!-- 4 COLUMNAS -->
+<section class="columnas">
+  <div class="row">
+    <div class="linea"></div>
+    <div class="col-lg-3">
+      <img src="../Proyecto 2/Imágenes/reloj 2.png" alt class="img-circular" height="150px" width="150px">
+
+      <h2 class="fw-normal">Plan</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      <p><a class="btn btn-secondary" href="#">Read More &raquo;</a></p>
+    </div>
+    <div class="col-lg-3">
+      <img src="../Proyecto 2/Imágenes/multimedia.png" alt class="img-circular" height="150px" width="150px">
+
+      <h2 class="fw-normal">Design</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      <p><a class="btn btn-secondary" href="#">Read More &raquo;</a></p>
+    </div>
+    <div class="col-lg-3">
+      <img src="../Proyecto 2/Imágenes/tuerca.png" alt class="img-circular" height="150px" width="150px">
+
+      <h2 class="fw-normal">Develop</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      <p><a class="btn btn-secondary" href="#">Read More &raquo;</a></p>
+    </div>
+    <div class="col-lg-3">
+      <img src="../Proyecto 2/Imágenes/cubo.png" alt class="img-circular" height="150px" width="150px">
+
+      <h2 class="fw-normal">Launch</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      <p><a class="btn btn-secondary" href="#">Read More &raquo;</a></p>
+    </div>
+  </div>
+</section>
+<!-- PARTE CENTRAL -->
+    <div class="container px-4 py-5" id="custom-cards">
+     <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
+      <h2><strong>Portfolio</strong></h2>
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="../Proyecto 2/Imágenes/BA CODING SCHOOL.png" alt="BA" width="50" height="50" class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                  <small>BA CODING SCHOOL</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                  <small>2022</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="../Proyecto 2/Imágenes/BA CODING SCHOOL.png" alt="BA" width="50" height="50" class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                  <small>BA CODING SCHOOL</small>
+                </li>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                  <small>2022</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+              <ul class="d-flex list-unstyled mt-auto">
+                <li class="me-auto">
+                  <img src="../Proyecto 2/Imágenes/BA CODING SCHOOL.png" alt="BA" width="50" height="50" class="rounded-circle border border-white">
+                </li>
+                <li class="d-flex align-items-center me-3">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
+                  <small>BA CODING SCHOOL</small>
+                <li class="d-flex align-items-center">
+                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
+                  <small>2022</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+<!-- SECCION FINAL -->
+    <div class="container px-4 py-5"> -->
+      <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+        <div class="d-flex flex-column align-items-start gap-2">
+          <h3 class="fw-bold">Testimonials</h3>
+          <img src="../Proyecto 2/Imágenes/BA CODING SCHOOL.png" alt="BA" width="150" height="150">
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="d-flex flex-column gap-2">
+            <div
+              class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            </div>
+            <h4 class="fw-semibold mb-0">Our Latest Blog Posts</h4>
+            <p class="text-muted">This is Photoshop version of Lorem Ipsum.</p>
+            <p class="text-muted">27/10/2022 | Hecho por NICOFZ11.</p>
+            <hr>
+          </div>
+  
+          <div class="d-flex flex-column gap-2">
+            <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            </div>
+            <h4 class="fw-semibold mb-0">Latest Tweets</h4>
+            <a href="https://www.baeducacionejecutiva.com.ar/carrera-desarrollo-web-full-stack/?external_browser_redirect=true" target="_blank">BA CODING SCHOOL</a>
+            <img src="../Proyecto 2/Imágenes/BA CODING SCHOOL.png" alt="BA" width="80" height="80">
+            <hr>
+          </div>
+  
+          <div class="d-flex flex-column gap-2">
+            <div
+              class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            </div>
+            <p class="text-muted">This is Photoshop version of Lorem Ipsum.</p>
+            <p class="text-muted">27/10/2022 | Hecho por NICOFZ11.</p>
+            <hr>
+          </div>
+  
+          <div class="d-flex flex-column gap-2">
+            <div
+              class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            </div>
+            <a href="https://www.baeducacionejecutiva.com.ar/carrera-desarrollo-web-full-stack/?external_browser_redirect=true" target="_blank">BA CODING SCHOOL</a>
+            <img src="../Proyecto 2/Imágenes/BA CODING SCHOOL.png" alt="BA" width="80" height="80">
+            <hr>
+          </div>
+
+          <div class="d-flex flex-column gap-2">
+            <div
+              class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
+            </div>
+            <p class="text-muted">This is Photoshop version of Lorem Ipsum.</p>
+            <p class="text-muted">27/10/2022 | Hecho por NICOFZ11.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- FOOTER -->
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About Us</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Services</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Blog</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact Us</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2022 BA CODING SCHOOL, NICOFZ11</p>
+      </footer>
+    </div>
+<!-- FINAL -->
+</body>
+</html>
